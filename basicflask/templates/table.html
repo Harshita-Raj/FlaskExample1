@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Fetching</title>
+</head>
+<body>
+   <h1>Table Data Fetching</h1>
+   <table border=1>
+   	 {% for key, value in dict2.items() %}
+   	 <tr>
+   	 	<td>{{ key }}</td>
+   	 	<td>{{ value }}</td>
+   	 </tr>
+   	 {% endfor %}
+   </table>
+</body>
+</html>
